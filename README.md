@@ -1,5 +1,7 @@
 # nuxt-ts
 
+全体の説明については、[アーキテクチャ設計図](https://github.com/kikuchi-s-lvgs/nuxt-ts-sample-app/blob/main/doc/%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.md)を参照。
+
 ## Build Setup
 
 ```bash

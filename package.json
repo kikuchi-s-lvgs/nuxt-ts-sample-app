@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-ts",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate",
+    "lint": "eslint --ext .ts,.js,.vue .",
+    "lint:fix": "eslint --fix --ext .ts,.js,.vue ."
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^2.0.0",
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/composition-api": "^0.15.1",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "axios": "^0.21.0",
+    "core-js": "^3.6.5",
+    "firebase": "^8.1.1",
+    "fs": "0.0.1-security",
+    "nuxt": "^2.14.6",
+    "vue-content-placeholders": "^0.2.1"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.14.6",
+    "@nuxt/typescript-build": "^2.0.3",
+    "@nuxtjs/eslint-config-typescript": "^5.0.0",
+    "eslint": "^7.13.0"
+  }
+}

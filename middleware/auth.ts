@@ -8,7 +8,6 @@ const middleware: Middleware = ({ route, store, redirect }) => {
     }
     auth.onAuthStateChanged((user) => {
         if (!user && route.name !== 'login') {
-            alert("ログインが必要です。ログイン画面に遷移します。")
             redirect('/login')
         }
     })

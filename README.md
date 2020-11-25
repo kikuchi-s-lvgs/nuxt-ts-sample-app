@@ -5,21 +5,17 @@
 ログイン機能はFirebaseで実装しているので、`.env.example`を`.env`にリネームして使ってください。
 まだアカウントを持っていない人はFirebaseのアカウントを作成してください。
 
-## Build Setup
-
 ```bash
-# install dependencies
+# 依存モジュールをインストール
 $ npm install
 
-# serve with hot reload at localhost:3000
+# ローカルで動かすとき
 $ npm run dev
 
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
+# SSGで静的リソースを生成するとき
 $ npm run generate
 ```
+
+generateコマンドで生成したあとは、dist配下すべてをホスティングツールにのせればOKです。
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
